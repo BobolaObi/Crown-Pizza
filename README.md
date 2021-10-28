@@ -6,26 +6,25 @@
  
  # Application Hook
 ---------------------
-
 -	Allow the user to generate free coupons to get discounts on food items
 
 
-##Application Intents
+# Application Intents
 ---------------------
 -	Mobile Phone order (phone & text)
 -	Shop Locator (map)
 
 
-#Compatibility
+# Compatibility
 --------------
 - All android devices
 
-#Authors
+# Authors
 ----------
 - Omobobola Obiwale
 
 
-#Liscence
+# Liscence
 ----------
 
 MIT License
