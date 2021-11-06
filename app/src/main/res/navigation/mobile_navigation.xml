@@ -16,9 +16,9 @@
         tools:layout="@layout/fragment_about_us" />
     <fragment
         android:id="@+id/nav_foodItems"
-        android:name="com.example.crownpizzaapplication.BlankFragment"
+        android:name="com.example.crownpizzaapplication.FoodItems"
         android:label="fragment_food_Items"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_food_items" />
     <fragment
         android:id="@+id/nav_makeOrder"
         android:name="com.example.crownpizzaapplication.MakeOrder"
