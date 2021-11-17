@@ -14,5 +14,17 @@
     <string name="menu_FREEPIZZA">FREE PIZZA</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+
+    <!--    Strings for make MAKE ORDER Fragment-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeOrderText">Express Delivery</string>
+    <string name="placeOrderContentText">No need to wait, we deliver whenever, whereever, right to your doorstep! PLACE ORDER NOW!</string>
+    <string name="callUsButton">Call Us</string>
+    <string name="TextUsButton">Text Us</string>
+    <string name="ShopsButton">Shops</string>
+
+<!--    Strings for make About us Fragment-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeOrderText">Express Delivery</string>
+    <string name="placeOrderContentText">No need to wait, we deliver whenever, whereever, right to your doorstep! PLACE ORDER NOW!</string>
 </resources>
