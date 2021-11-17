@@ -30,7 +30,7 @@ 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
 
 MIT License
 
-Copyright (c) [2021] [Omobobola obiwale]
+Copyright (c) [2021] [Omobobola Obiwale]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
