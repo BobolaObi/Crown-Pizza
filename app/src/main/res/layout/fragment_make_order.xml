@@ -4,42 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fadingEdge="horizontal"
     android:orientation="vertical"
     tools:context=".MakeOrder">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/placeOrderHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:padding="34dp"
+        android:text="@string/placeOrderText"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="277dp"
         android:layout_weight="2"
-        tools:src="@tools:sample/backgrounds/scenic" />
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:paddingStart="@dimen/imagepadding"
+        android:paddingEnd="@dimen/imagepadding"
+        tools:src="@drawable/deliveryimge" />
 
     <TextView
+        android:id="@+id/placeOrderContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:padding="@dimen/contentPading"
+        android:text="@string/placeOrderContentText"
+        android:textColor="@color/black" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/callUsbutton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="60dp"
 
-        android:text="Button"
-      />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Button" />
+        android:layout_weight="1"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="@string/callUsButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/textUsButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:text="Button" />
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+
+        android:text="@string/TextUsButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:cornerRadius="5dp" />
+
+    <Button
+        android:id="@+id/shopsButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="@string/ShopsButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
 </LinearLayout>
