@@ -30,10 +30,11 @@
         android:cropToPadding="true"
         android:paddingStart="@dimen/imagepadding"
         android:paddingEnd="@dimen/imagepadding"
-        tools:src="@drawable/deliveryimge" />
+        app:srcCompat="@drawable/deliveryimge"
+        />
 
     <TextView
-        android:id="@+id/placeOrderContent"
+        android:id="@+id/aboutUsString"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
