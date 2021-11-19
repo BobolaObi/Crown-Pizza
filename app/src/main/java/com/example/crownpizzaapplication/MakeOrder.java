@@ -1,12 +1,16 @@
 package com.example.crownpizzaapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +63,47 @@ public class MakeOrder extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_make_order, container, false);
+
+        //Create and return view
+        View view =  inflater.inflate(R.layout.fragment_make_order, container, false);
+
+        //Create Contact Us Button
+        Button callUsButton = view.findViewById(R.id.callUsbutton);
+        callUsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_DIAL,
+                        Uri.parse("tel:519323777"));
+                startActivity(i);
+            }
+        });
+
+        //Create  Message Button
+        Button messageUsButton = view.findViewById(R.id.textUsButton);
+        messageUsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_SENDTO,
+                        Uri.parse("smsto:519323777"));
+                i.putExtra("sms_body",
+                        "Hungry? tell us what you want.");
+                        startActivity(i);
+            }
+        });
+
+        //Create Location / Shops Button
+        Button locationButton = view.findViewById(R.id.shopsButton);
+        locationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri location = Uri.parse("geo:42.4949720777289, -82.96808432027362?&q=Pizza ");
+
+                Intent intent = new Intent(Intent.ACTION_VIEW, location);
+                startActivity(intent);
+            }
+        });
+
+
+        return view;
     }
 }
