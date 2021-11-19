@@ -18,13 +18,20 @@
     <!--    Strings for make MAKE ORDER Fragment-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="placeOrderText">Express Delivery</string>
-    <string name="placeOrderContentText">No need to wait, we deliver whenever, whereever, right to your doorstep! PLACE ORDER NOW!</string>
+    <string name="placeOrderContentText">No need to wait, we deliver whenever, wherever, right to your doorstep! PLACE ORDER NOW!</string>
     <string name="callUsButton">Call Us</string>
     <string name="TextUsButton">Text Us</string>
     <string name="ShopsButton">Shops</string>
 
 <!--    Strings for make About us Fragment-->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="placeOrderText">Express Delivery</string>
-    <string name="placeOrderContentText">No need to wait, we deliver whenever, whereever, right to your doorstep! PLACE ORDER NOW!</string>
+
+    <string name="aboutUsText">About Us</string>
+    <string name="aboutUsContent">CROWN PIZZA </string>
+    <string name= "aboutUs">
+Time flies when you do what you love. We know because we’ve been making great
+        pizza since 1967. Along the way, we’ve grown to more than 750 restaurants from coast to coast,
+        becoming a trusted brand and leader in the food service industry. We’re proud of the quality food we make
+        – and the difference we make in communities
+        across Canada. We’ve made a lot of pies – and memories –
+        over the years. Find out what goes into both!</string>
 </resources>
