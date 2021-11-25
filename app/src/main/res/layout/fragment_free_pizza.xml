@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FreePizza">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MakeOrder">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ticketLayoutHight"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/pizzaTicketPadding"
+        app:srcCompat="@drawable/ticket1" />
+
     <TextView
+        android:id="@+id/aboutUsString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/couponTitle"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/placeOrderHeader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:paddingTop="34dp"
+        android:text="@string/code"
+        android:textColor="#F2651D"
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    v<TextView
+        android:id="@+id/aboutUsString2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center|center_horizontal"
+        android:paddingTop="34dp"
+        android:paddingBottom="34dp"
+        android:text="@string/couponClaimMessage"
+        android:textColor="#949597"
+        android:textSize="11dp" />
+
+
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="78dp"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="TRY AGAIN"
+        android:layout_weight="2"
+      />
+
+</LinearLayout>

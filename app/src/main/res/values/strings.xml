@@ -30,8 +30,13 @@
     <string name= "aboutUs">
         Time flies when you do what you love. We know because we’ve been making great
         pizza since 1967. Along the way, we’ve grown to more than 750 restaurants from coast to coast,
-        becoming a trusted brand and leader in the food service industry. We’re proud of the quality food we make
+        becoming a trusted brand and leader in the foodservice industry. We’re proud of the quality food we make
         – and the difference we make in communities
         across Canada. We’ve made a lot of pies – and memories –
         over the years. Find out what goes into both!</string>
+
+    <!--    Strings for make Coupon Fragment-->
+    <string name="couponTitle">YOUR NUMBER IS</string>
+    <string name="code">#300</string>
+    <string name="couponClaimMessage">visit the closest shop to claim your discount on your next purchase</string>
 </resources>

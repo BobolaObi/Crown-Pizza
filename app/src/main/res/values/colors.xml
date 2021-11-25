@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="orangeLight">#FFA64E</color>
-    <color name="orangeDark">#F66B06</color>
+    <color name="orangeLight">#F66B06</color>
+    <color name="orangeDark">#FFA64E</color>
     <color name="pureBlack">#FF000000</color>
 
 <!--    Dark Mode-->
