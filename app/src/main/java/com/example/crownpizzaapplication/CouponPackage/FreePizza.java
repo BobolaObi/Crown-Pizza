@@ -1,19 +1,30 @@
-package com.example.crownpizzaapplication;
+package com.example.crownpizzaapplication.CouponPackage;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.example.crownpizzaapplication.R;
+
+import java.util.Random;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link FreePizza#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FreePizza extends Fragment {
+public class FreePizza extends AppCompatDialogFragment {
+
+    TextView couponNum;
+    Button couponButtn;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,6 +38,7 @@ public class FreePizza extends Fragment {
     public FreePizza() {
         // Required empty public constructor
     }
+
 
     /**
      * Use this factory method to create a new instance of
@@ -59,6 +71,52 @@ public class FreePizza extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_free_pizza, container, false);
+        View view = inflater.inflate(R.layout.fragment_free_pizza, container, false);
+        couponNum = view.findViewById(R.id.randomCode);
+
+
+        couponButtn = view.findViewById(R.id.tryAgainButton);
+        couponButtn.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
+            @Override
+            public void onClick(View view) {
+                Random random = new Random();
+
+
+                //Test lines
+//                int couponValue = random.nextInt(3);
+//                String[] extra = {"BNB"};
+
+
+                // Final Lines
+                int couponValue = random.nextInt(954735) + 443467;
+                String[] extra = {"BNB", "ETH", "BTC", "CDS"};
+
+                int randomExtra = random.nextInt(extra.length);
+
+                String cou = extra[randomExtra];
+                couponNum.setText(Integer.toString(couponValue) + "-" + cou);
+
+                //Test statement
+//                if (cou == "BNB" && couponValue == 2){
+//                    openDialog();
+//                }
+
+                if (cou == "BNB" && couponValue == 754873){
+                    openDialog();
+                }
+            }
+
+        });
+        return view;
     }
+    private void openDialog() {
+        CouponDialog couponDialog = new CouponDialog();
+        couponDialog.show(getChildFragmentManager(), "couponDialog");
+    }
+
+
+
 }
+
+ 

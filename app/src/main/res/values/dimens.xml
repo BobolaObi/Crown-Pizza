@@ -9,5 +9,8 @@
     <dimen name="contentsize">14sp</dimen>
     <dimen name="contentPading">20dp</dimen>
     <dimen name="pizzaTicketPadding">60dp</dimen>
-    <dimen name="ticketLayoutHight">386dp</dimen>
+    <dimen name="ticketLayoutHeight">376dp</dimen>
+    <dimen name="couponTetSize">50sp</dimen>
+    <dimen name="couponTextHeader">20sp</dimen>
+    <dimen name="couponInstruction">11dp</dimen>
 </resources>

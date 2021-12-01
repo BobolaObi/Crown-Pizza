@@ -37,6 +37,7 @@
 
     <!--    Strings for make Coupon Fragment-->
     <string name="couponTitle">YOUR NUMBER IS</string>
-    <string name="code">#300</string>
-    <string name="couponClaimMessage">visit the closest shop to claim your discount on your next purchase</string>
+    <string name="code">000</string>
+    <string name="couponClaimMessage">visit the closest shop to claim your discount (Make sure to take a screenshot) </string>
+    <string name="tryAgainButtonText">TRY AGAIN</string>
 </resources>
