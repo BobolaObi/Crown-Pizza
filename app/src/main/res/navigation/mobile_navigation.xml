@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_aboutUs">
+    app:startDestination="@id/nav_freePizza">
     <fragment
         android:id="@+id/nav_FAQ"
         android:name="com.example.crownpizzaapplication.FAQ"
@@ -26,7 +26,7 @@
         tools:layout="@layout/fragment_make_order" />
     <fragment
         android:id="@+id/nav_freePizza"
-        android:name="com.example.crownpizzaapplication.FreePizza"
+        android:name="com.example.crownpizzaapplication.CouponPackage.FreePizza"
         android:label="fragment_free_pizza"
         tools:layout="@layout/fragment_free_pizza" />
 </navigation>

@@ -12,57 +12,57 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/ticketLayoutHight"
+        android:layout_height="@dimen/ticketLayoutHeight"
         android:layout_weight="2"
         android:adjustViewBounds="true"
         android:padding="@dimen/pizzaTicketPadding"
-        app:srcCompat="@drawable/ticket1" />
+        app:srcCompat="@drawable/ticket" />
 
     <TextView
         android:id="@+id/aboutUsString"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="20dp"
         android:gravity="center|center_horizontal"
         android:text="@string/couponTitle"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/couponTextHeader" />
 
     <TextView
-        android:id="@+id/placeOrderHeader"
+
+        android:id="@+id/randomCode"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center|center_horizontal|center_vertical"
-        android:paddingTop="34dp"
+
         android:text="@string/code"
         android:textColor="#F2651D"
-        android:textSize="50dp"
+        android:textSize="@dimen/couponTetSize"
         android:textStyle="bold" />
 
-    v<TextView
+
+    <TextView
         android:id="@+id/aboutUsString2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:gravity="center|center_horizontal"
         android:paddingTop="34dp"
-        android:paddingBottom="34dp"
+        android:paddingBottom="24dp"
         android:text="@string/couponClaimMessage"
-        android:textColor="#949597"
-        android:textSize="11dp" />
-
-
+        android:textColor="@color/black"
+        android:textSize="@dimen/couponInstruction" />
 
     <Button
         android:id="@+id/tryAgainButton"
         android:layout_width="match_parent"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:layout_height="78dp"
+        android:layout_weight="2"
         android:insetLeft="40dp"
         android:insetRight="40dp"
-        android:text="TRY AGAIN"
-        android:layout_weight="2"
-      />
+
+        android:text="@string/tryAgainButtonText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
 </LinearLayout>
