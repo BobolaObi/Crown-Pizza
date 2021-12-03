@@ -13,4 +13,7 @@
     <dimen name="couponTetSize">50sp</dimen>
     <dimen name="couponTextHeader">20sp</dimen>
     <dimen name="couponInstruction">11dp</dimen>
+    <dimen name="instuctionpadTop">32dp</dimen>
+    <dimen name="instructionPadButtom">24dp</dimen>
+    <dimen name="inset">40dp</dimen>
 </resources>

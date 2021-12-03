@@ -49,8 +49,8 @@
         android:layout_height="60dp"
 
         android:layout_weight="1"
-        android:insetLeft="40dp"
-        android:insetRight="40dp"
+        android:insetLeft="@dimen/inset"
+        android:insetRight="@dimen/inset"
         android:text="@string/callUsButton"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
@@ -59,9 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_weight="1"
-        android:insetLeft="40dp"
-        android:insetRight="40dp"
-
+        android:insetLeft="@dimen/inset"
+        android:insetRight="@dimen/inset"
         android:text="@string/TextUsButton"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:cornerRadius="5dp" />
@@ -71,8 +70,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_weight="1"
-        android:insetLeft="40dp"
-        android:insetRight="40dp"
+        android:insetLeft="@dimen/inset"
+        android:insetRight="@dimen/inset"
         android:text="@string/ShopsButton"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
