@@ -20,14 +20,17 @@
             android:id="@+id/nav_makeOrder"
             android:icon="@drawable/order_stores_logo"
             android:title="@string/menu_MakeOrder" />
+
         <item
             android:id="@+id/nav_freePizza"
             android:icon="@drawable/free_pizza_logo"
             android:title="@string/menu_FREEPIZZA" />
+
         <item
-            android:id="@+id/nav_credits"
+            android:id="@+id/nav_Credits"
             android:icon="@drawable/ic_baseline_auto_awesome_24"
             android:title="@string/credits" />
+
 
     </group>
 </menu>
