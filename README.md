@@ -37,6 +37,8 @@ Get your self familiar with the app.
 -	Allow the user to generate free coupons to get discounts on food items
 <img width="389" alt="Screen Shot 2021-12-03 at 2 14 40 AM" src="https://user-images.githubusercontent.com/91813831/144560949-b397dd65-33db-4aa8-a861-446723f5dbb8.png">
 
+![Screen Shot 2021-12-03 at 2 27 42 AM](https://user-images.githubusercontent.com/91813831/144562547-2cf30e49-8568-48c3-9ff4-63d56f0843c9.png)
+
 
 # Application Intents
 ---------------------
