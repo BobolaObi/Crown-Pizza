@@ -3,11 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
+<<<<<<< HEAD
     app:startDestination="@id/nav_freePizza">
     <fragment
         android:id="@+id/nav_FAQ"
         android:name="com.example.crownpizzaapplication.FAQ"
         android:label="fragment_f_a_q"
+=======
+    app:startDestination="@id/nav_FAQ">
+    <fragment
+        android:id="@+id/nav_FAQ"
+        android:name="com.example.crownpizzaapplication.FAQuestions.FAQ"
+        android:label="Questions and Answers"
+>>>>>>> ListView
         tools:layout="@layout/fragment_f_a_q" />
     <fragment
         android:id="@+id/nav_aboutUs"

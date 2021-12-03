@@ -59,6 +59,20 @@ public class FoodItems extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+<<<<<<< HEAD:app/src/main/java/com/example/crownpizzaapplication/FoodItems.java
         return inflater.inflate(R.layout.fragment_food_items, container, false);
+=======
+        View view = inflater.inflate(R.layout.fragment_food_details, container, false);
+        Bundle extras = getArguments(); //Grab the bundle if it exists
+        if (extras != null) {
+            TextView foodName = view.findViewById(R.id.pizzaName);
+            foodName.setText(extras.getString("NAME"));
+            ImageView foodImage = view.findViewById(R.id.pizzaImage);
+            foodImage.setImageResource(extras.getInt("DRAWABLE"));
+            TextView foodDesc = view.findViewById(R.id.answerList);
+            foodName.setText(extras.getString("DESCRIPTION"));
+        }
+        return view;
+>>>>>>> ListView:app/src/main/java/com/example/crownpizzaapplication/FoodItems/FoodDetails.java
     }
 }
