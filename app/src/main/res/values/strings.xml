@@ -23,11 +23,11 @@
     <string name="TextUsButton">Text Us</string>
     <string name="ShopsButton">Shops</string>
 
-    <!--    Strings for make About us Fragment-->
+<!--    Strings for make About us Fragment-->
 
     <string name="aboutUsText">About Us</string>
     <string name="aboutUsContent">CROWN PIZZA </string>
-    <string name="aboutUs">
+    <string name= "aboutUs">
         Time flies when you do what you love. We know because we’ve been making great
         pizza since 1967. Along the way, we’ve grown to more than 750 restaurants from coast to coast,
         becoming a trusted brand and leader in the foodservice industry. We’re proud of the quality food we make
