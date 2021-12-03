@@ -6,7 +6,13 @@ public class FoodItem {
     private String size;
     private double price;
 
-
+    /**
+     *
+     * @param drawable
+     * @param name
+     * @param size
+     * @param price
+     */
     public FoodItem(int drawable, String name, String size, double price) {
         this.drawable = drawable;
         this.name = name;
@@ -27,6 +33,10 @@ public class FoodItem {
         this.drawable = drawable;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getName() {
         return name;
     }

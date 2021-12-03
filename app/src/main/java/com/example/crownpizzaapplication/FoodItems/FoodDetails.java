@@ -70,7 +70,7 @@ public class FoodDetails extends Fragment {
             foodName.setText(extras.getString("NAME"));
             ImageView foodImage = view.findViewById(R.id.pizzaImage);
             foodImage.setImageResource(extras.getInt("DRAWABLE"));
-            TextView foodDesc = view.findViewById(R.id.description);
+            TextView foodDesc = view.findViewById(R.id.answerList);
             foodName.setText(extras.getString("DESCRIPTION"));
         }
         return view;

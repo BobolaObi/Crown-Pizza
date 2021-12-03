@@ -30,7 +30,7 @@ tools:context=".FoodItems.FoodDetails">
         app:layout_constraintTop_toBottomOf="@+id/pizzaImage" />
 
     <TextView
-        android:id="@+id/description"
+        android:id="@+id/answerList"
         android:layout_width="364dp"
         android:layout_height="203dp"
         android:text="TextView"

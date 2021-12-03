@@ -61,10 +61,10 @@ public class MenuAdapter
 
         public MenuViewHolder(@NonNull View itemView) {
             super(itemView);
-            this.name = itemView.findViewById(R.id.name);
+            this.name = itemView.findViewById(R.id.question);
             this.price = itemView.findViewById(R.id.price);
             this.image = itemView.findViewById(R.id.image);
-            this.size = itemView.findViewById(R.id.description);
+            this.size = itemView.findViewById(R.id.answerList);
             itemView.setOnClickListener(this);
         }
 
