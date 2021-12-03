@@ -1,4 +1,4 @@
-package com.example.crownpizzaapplication;
+package com.example.crownpizzaapplication.FoodItems;
 
 import android.os.Bundle;
 
@@ -7,13 +7,17 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.example.crownpizzaapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link FoodItems#newInstance} factory method to
+ * Use the {@link FoodDetails#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FoodItems extends Fragment {
+public class FoodDetails extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +28,7 @@ public class FoodItems extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public FoodItems() {
+    public FoodDetails() {
         // Required empty public constructor
     }
 
@@ -34,11 +38,11 @@ public class FoodItems extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BlankFragment.
+     * @return A new instance of fragment foodDetails.
      */
     // TODO: Rename and change types and number of parameters
-    public static FoodItems newInstance(String param1, String param2) {
-        FoodItems fragment = new FoodItems();
+    public static FoodDetails newInstance(String param1, String param2) {
+        FoodDetails fragment = new FoodDetails();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +63,16 @@ public class FoodItems extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_food_items, container, false);
+        View view = inflater.inflate(R.layout.fragment_food_details, container, false);
+        Bundle extras = getArguments(); //Grab the bundle if it exists
+        if (extras != null) {
+            TextView foodName = view.findViewById(R.id.pizzaName);
+            foodName.setText(extras.getString("NAME"));
+            ImageView foodImage = view.findViewById(R.id.pizzaImage);
+            foodImage.setImageResource(extras.getInt("DRAWABLE"));
+            TextView foodDesc = view.findViewById(R.id.description);
+            foodName.setText(extras.getString("DESCRIPTION"));
+        }
+        return view;
     }
 }

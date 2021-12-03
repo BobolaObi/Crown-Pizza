@@ -13,7 +13,7 @@
             android:icon="@drawable/about_us_logo"
             android:title="@string/menu_AboutUs" />
         <item
-            android:id="@+id/nav_foodItems"
+            android:id="@+id/nav_menuList"
             android:icon="@drawable/food_items_logo"
             android:title="@string/menu_FoodItems" />
         <item

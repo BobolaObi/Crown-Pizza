@@ -3,30 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_freePizza">
+    app:startDestination="@id/nav_menuList">
     <fragment
         android:id="@+id/nav_FAQ"
         android:name="com.example.crownpizzaapplication.FAQ"
-        android:label="fragment_f_a_q"
+        android:label="Questions and Answers"
         tools:layout="@layout/fragment_f_a_q" />
     <fragment
         android:id="@+id/nav_aboutUs"
         android:name="com.example.crownpizzaapplication.AboutUs"
-        android:label="fragment_about_us"
+        android:label="About Us"
         tools:layout="@layout/fragment_about_us" />
-    <fragment
-        android:id="@+id/nav_foodItems"
-        android:name="com.example.crownpizzaapplication.FoodItems"
-        android:label="fragment_food_Items"
-        tools:layout="@layout/fragment_food_items" />
     <fragment
         android:id="@+id/nav_makeOrder"
         android:name="com.example.crownpizzaapplication.MakeOrder"
-        android:label="fragment_make_order"
+        android:label="Deivery"
         tools:layout="@layout/fragment_make_order" />
     <fragment
         android:id="@+id/nav_freePizza"
         android:name="com.example.crownpizzaapplication.CouponPackage.FreePizza"
-        android:label="fragment_free_pizza"
+        android:label="Coupon Generator"
         tools:layout="@layout/fragment_free_pizza" />
+    <fragment
+        android:id="@+id/nav_menuList"
+        android:name="com.example.crownpizzaapplication.FoodItems.MenuList"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu_list">
+        <action
+            android:id="@+id/action_menuList_to_foodDetails"
+            app:destination="@id/nav_foodDetails"
+            app:popUpTo="@id/nav_foodDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_foodDetails"
+        android:name="com.example.crownpizzaapplication.FoodItems.FoodDetails"
+        android:label="Ingredients"
+        tools:layout="@layout/fragment_food_details" />
 </navigation>
