@@ -1,7 +1,10 @@
 # Crown Pizza
 ---------------
-Crown pizza app is an informational app about a newly launched pizza business. Customers of crown pizza can learn more about the business and get discounts through the application. The Application contains information about the business, frequently asked questions, a coupon code generator and options to place orders (phone or text).
+
 ![Screen Shot 2021-12-03 at 2 13 23 AM](https://user-images.githubusercontent.com/91813831/144560818-13abb4e8-42d4-48f4-9380-82f9e99eea68.png)
+
+Crown pizza app is an informational app about a newly launched pizza business. Customers of crown pizza can learn more about the business and get discounts through the application. The Application contains information about the business, frequently asked questions, a coupon code generator and options to place orders (phone or text).
+
 
 
   # Installation Guide
@@ -14,12 +17,20 @@ Crown pizza app is an informational app about a newly launched pizza business. C
 
 # User Interface
 ---------------------
-![Screenshot_1638515356](https://user-images.githubusercontent.com/91813831/144560495-2a2815a6-094c-4c41-9f15-168ea6b2346d.png)
-![Screenshot_1638515346](https://user-images.githubusercontent.com/91813831/144560499-c3cbc7fb-9ed9-46bb-9f42-f7f7afbc96ac.png)
-![Screenshot_1638515339](https://user-images.githubusercontent.com/91813831/144560500-1236942b-90b1-49de-ac5f-719b4ce094a9.png)
-![Screenshot_1638515329](https://user-images.githubusercontent.com/91813831/144560502-2d80a855-6bf2-46d5-928a-af4ce7b6f5aa.png)
-![Screenshot_1638515326](https://user-images.githubusercontent.com/91813831/144560504-6124481d-564f-4287-9ebf-73c213192177.png)
-![Screenshot_1638515319](https://user-images.githubusercontent.com/91813831/144560508-605e1533-c99d-4c5d-b8c1-156087b27e91.png)
+Get your self familiar with the app.
+
+## Initial Draft
+![Screen Shot 2021-12-03 at 2 23 58 AM](https://user-images.githubusercontent.com/91813831/144562011-dc56d1cf-1b46-450a-91a1-618a17831517.png)
+
+## Current Applicatioin UI
+<img width="233" alt="Screen Shot 2021-12-03 at 2 18 12 AM" src="https://user-images.githubusercontent.com/91813831/144561337-cfeea3b2-0b91-43c4-908b-cf48f1decc4a.png">
+
+<img width="234" alt="Screen Shot 2021-12-03 at 2 18 48 AM" src="https://user-images.githubusercontent.com/91813831/144561428-6bea4599-25df-40a6-a585-602f1b25f870.png">
+<img width="236" alt="Screen Shot 2021-12-03 at 2 19 15 AM" src="https://user-images.githubusercontent.com/91813831/144561494-bfe78f32-723c-4b8f-8f40-0f69eda2a131.png">
+<img width="237" alt="Screen Shot 2021-12-03 at 2 19 50 AM" src="https://user-images.githubusercontent.com/91813831/144561566-d4ececf9-4a52-489f-b339-9ee06b84a747.png">
+<img width="235" alt="Screen Shot 2021-12-03 at 2 20 12 AM" src="https://user-images.githubusercontent.com/91813831/144561597-9adb2251-84ae-4ccb-80ce-bd85fbdc33cf.png">
+
+
 
  # Application Hook
 ---------------------
@@ -35,6 +46,7 @@ Crown pizza app is an informational app about a newly launched pizza business. C
 
 # Compatibility
 --------------
+
 - All android devices & computers running intellij (with an emulator)
 
 # Authors
