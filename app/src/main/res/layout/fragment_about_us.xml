@@ -13,6 +13,7 @@
         android:id="@+id/placeOrderHeader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar"
         android:gravity="center|center_horizontal|center_vertical"
         android:padding="34dp"
         android:text="@string/aboutUsText"
@@ -35,11 +36,12 @@
         android:id="@+id/aboutUsContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_paaji"
         android:gravity="center|center_horizontal"
         android:padding="@dimen/contentPading"
-        android:textStyle="bold"
         android:text="@string/aboutUsContent"
-        android:textColor="@color/black" />
+        android:textColor="@color/orangeLight"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/aboutUsString"

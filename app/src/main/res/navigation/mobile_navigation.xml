@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
 <<<<<<< HEAD
+<<<<<<< HEAD
     app:startDestination="@id/nav_freePizza">
     <fragment
         android:id="@+id/nav_FAQ"
@@ -11,6 +12,9 @@
         android:label="fragment_f_a_q"
 =======
     app:startDestination="@id/nav_FAQ">
+=======
+    app:startDestination="@id/nav_aboutUs">
+>>>>>>> Development
     <fragment
         android:id="@+id/nav_FAQ"
         android:name="com.example.crownpizzaapplication.FAQuestions.FAQ"
