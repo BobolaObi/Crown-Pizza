@@ -40,4 +40,17 @@
     <string name="code">000</string>
     <string name="couponClaimMessage">visit the closest shop to claim your discount (Make sure to take a screenshot) </string>
     <string name="tryAgainButtonText">TRY AGAIN</string>
+
+    <!--    Strings for CREDITS -->
+    <string name="txtCredits">https://www.pexels.com/photo/appetizing-assorted-pizza-with-meat-products-and-vegetables-4394612/</string>
+    <string name="txtCredits1">https://www.pexels.com/photo/freshly-baked-pizza-2295285/</string>
+    <string name="txtCredits2">https://www.pexels.com/photo/cooked-food-2471171/</string>
+    <string name="txtCredits3">https://www.pexels.com/photo/cheese-pizza-2762942/</string>
+    <string name="txtCredits4">https://www.pexels.com/photo/person-holding-a-slice-of-pizza-4109111/</string>
+    <string name="txtCredits5">https://www.pexels.com/photo/person-slicing-pizza-2233348/</string>
+    <string name="txtCredits6">https://www.pexels.com/photo/sliced-pizza-on-plate-845798/</string>
+    <string name="txtCredits7">https://www.pexels.com/photo/1-piece-sliced-pizza-in-white-ceramic-plate-845808/</string>
+    <string name="credits">CREDITS</string>
+
+
 </resources>

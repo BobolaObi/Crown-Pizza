@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/link5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/instuctionpadTop"
+        android:fontFamily="@font/baloo_paaji"
+        android:textColor="@color/orangeDark"
+        android:linksClickable="true"
+        android:text="@string/txtCredits5"
+        android:textSize="@dimen/contentsize" />
+    <TextView
+        android:linksClickable="true"
+        android:background="@color/white"
+        android:fontFamily="@font/baloo_paaji"
+        android:id="@+id/link6"
+        android:layout_width="match_parent"
+        android:textColor="@color/orangeDark"
+        android:textSize="@dimen/contentsize"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits6" />
+
+    <TextView
+        android:textColor="@color/orangeDark"
+        android:textSize="@dimen/contentsize"
+        android:linksClickable="true"
+        android:fontFamily="@font/baloo_paaji"
+        android:id="@+id/link7"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits7" />
+
+    <TextView
+        android:fontFamily="@font/baloo_paaji"
+        android:textSize="@dimen/contentsize"
+        android:id="@+id/link"
+        android:textColor="@color/orangeDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits4" />
+    <TextView
+        android:fontFamily="@font/baloo_paaji"
+        android:textSize="@dimen/contentsize"
+        android:textColor="@color/orangeDark"
+        android:id="@+id/link4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits3" />
+
+    <TextView
+        android:fontFamily="@font/baloo_paaji"
+        android:textSize="@dimen/contentsize"
+        android:id="@+id/link1"
+        android:textColor="@color/orangeDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits" />
+    <TextView
+        android:textColor="@color/orangeDark"
+        android:fontFamily="@font/baloo_paaji"
+        android:id="@+id/link2"
+        android:textSize="@dimen/contentsize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits1" />
+    <TextView
+        android:fontFamily="@font/baloo_paaji"
+        android:textSize="@dimen/contentsize"
+        android:textColor="@color/orangeDark"
+        android:id="@+id/link3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/txtCredits2" />
+</LinearLayout>
