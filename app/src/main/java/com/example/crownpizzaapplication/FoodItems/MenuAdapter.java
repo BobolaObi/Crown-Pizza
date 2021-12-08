@@ -16,12 +16,23 @@ import com.example.crownpizzaapplication.R;
 import java.util.ArrayList;
 
 
+/**
+ * The type Menu adapter.
+ */
 public class MenuAdapter
         extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder>{
 
 
+    /**
+     * The Pizza list.
+     */
     ArrayList<FoodItem> pizzaList;
 
+    /**
+     * Instantiates a new Menu adapter.
+     *
+     * @param pizzaList the pizza list
+     */
     public MenuAdapter(ArrayList<FoodItem> pizzaList){
         this.pizzaList = pizzaList;
     }
@@ -53,12 +64,32 @@ public class MenuAdapter
         return 0;
     }
 
+    /**
+     * The type Menu view holder.
+     */
     class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        /**
+         * The Image.
+         */
         protected ImageView image;
+        /**
+         * The Name.
+         */
         protected TextView name;
+        /**
+         * The Price.
+         */
         protected TextView price;
+        /**
+         * The Size.
+         */
         protected TextView size;
 
+        /**
+         * Instantiates a new Menu view holder.
+         *
+         * @param itemView the item view
+         */
         public MenuViewHolder(@NonNull View itemView) {
             super(itemView);
             this.name = itemView.findViewById(R.id.question);

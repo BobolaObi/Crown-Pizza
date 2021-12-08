@@ -22,7 +22,13 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class FAQ extends Fragment {
+    /**
+     * The Question.
+     */
     ListView question;
+    /**
+     * The Answer.
+     */
     TextView answer;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,6 +39,9 @@ public class FAQ extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    /**
+     * Instantiates a new Faq.
+     */
     public FAQ() {
         // Required empty public constructor
     }
@@ -45,7 +54,7 @@ public class FAQ extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment FAQ.
      */
-    // TODO: Rename and change types and number of parameters
+// TODO: Rename and change types and number of parameters
     public static FAQ newInstance(String param1, String param2) {
         FAQ fragment = new FAQ();
         Bundle args = new Bundle();

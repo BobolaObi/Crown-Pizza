@@ -16,6 +16,7 @@ import com.example.crownpizzaapplication.R;
 
 import java.util.Random;
 
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link FreePizza#newInstance} factory method to
@@ -23,7 +24,13 @@ import java.util.Random;
  */
 public class FreePizza extends AppCompatDialogFragment {
 
+    /**
+     * The Coupon num.
+     */
     TextView couponNum;
+    /**
+     * The Coupon buttn.
+     */
     Button couponButtn;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -35,6 +42,9 @@ public class FreePizza extends AppCompatDialogFragment {
     private String mParam1;
     private String mParam2;
 
+    /**
+     * Instantiates a new Free pizza.
+     */
     public FreePizza() {
         // Required empty public constructor
     }
@@ -48,7 +58,7 @@ public class FreePizza extends AppCompatDialogFragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment freePizza.
      */
-    // TODO: Rename and change types and number of parameters
+// TODO: Rename and change types and number of parameters
     public static FreePizza newInstance(String param1, String param2) {
         FreePizza fragment = new FreePizza();
         Bundle args = new Bundle();

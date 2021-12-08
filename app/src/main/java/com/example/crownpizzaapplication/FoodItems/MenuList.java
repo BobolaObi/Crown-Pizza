@@ -30,6 +30,9 @@ public class MenuList extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    /**
+     * Instantiates a new Menu list.
+     */
     public MenuList() {
         // Required empty public constructor
     }
@@ -42,7 +45,7 @@ public class MenuList extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment menuList.
      */
-    // TODO: Rename and change types and number of parameters
+// TODO: Rename and change types and number of parameters
     public static MenuList newInstance(String param1, String param2) {
         MenuList fragment = new MenuList();
         Bundle args = new Bundle();

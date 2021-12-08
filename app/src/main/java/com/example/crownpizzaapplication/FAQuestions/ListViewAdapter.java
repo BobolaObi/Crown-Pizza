@@ -14,8 +14,17 @@ import com.example.crownpizzaapplication.R;
 
 import java.util.ArrayList;
 
+/**
+ * The type List view adapter.
+ */
 public class ListViewAdapter extends ArrayAdapter<FAQClass> {
 
+    /**
+     * Instantiates a new List view adapter.
+     *
+     * @param context the context
+     * @param items   the items
+     */
     public ListViewAdapter(@NonNull Context context,
                            ArrayList<FAQClass> items) {
         super(context, 0, items);

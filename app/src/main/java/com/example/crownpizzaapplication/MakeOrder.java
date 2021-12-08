@@ -28,6 +28,9 @@ public class MakeOrder extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    /**
+     * Instantiates a new Make order.
+     */
     public MakeOrder() {
         // Required empty public constructor
     }
@@ -40,7 +43,7 @@ public class MakeOrder extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment MakeOrder.
      */
-    // TODO: Rename and change types and number of parameters
+// TODO: Rename and change types and number of parameters
     public static MakeOrder newInstance(String param1, String param2) {
         MakeOrder fragment = new MakeOrder();
         Bundle args = new Bundle();

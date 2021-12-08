@@ -10,6 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.fragment.app.FragmentManager;
 
+/**
+ * The type Coupon dialog.
+ */
 //
 public class CouponDialog extends AppCompatDialogFragment {
 //    public class CouponDialog extends FreePizza{
